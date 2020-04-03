@@ -1,0 +1,21 @@
+{
+  "name": "npm-simple",
+  "version": "0.0.1",
+  "description": "Simple NPM hello world",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaschaSchwarze0/npm-simple.git"
+  },
+  "author": "Sascha Schwarze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaschaSchwarze0/npm-simple/issues"
+  },
+  "homepage": "https://github.com/SaschaSchwarze0/npm-simple#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
