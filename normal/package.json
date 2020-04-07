@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Simple NPM hello world",
   "scripts": {
+    "print-http-server-version": "http-server -v",
     "start": "http-server"
   },
   "repository": {
