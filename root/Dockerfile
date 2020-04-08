@@ -4,8 +4,12 @@ COPY . /app
 WORKDIR /app
 
 RUN \
+  export DEBIAN_FRONTEND=noninteractive && \
+  apt update && \
+  apt upgrade -y && \
+  apt install -y tree && \
   pwd && \
-  ls -l && \
+  tree && \
   npm install && \
   npm run print-http-server-version
 
