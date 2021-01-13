@@ -1,4 +1,4 @@
-FROM node:12
+FROM registry.saschaschwarze.de/library/node:12
 
 COPY . /app
 WORKDIR /app
