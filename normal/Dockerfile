@@ -1,4 +1,4 @@
-FROM node:12
+FROM quay.io/xiujuan95/node:12
 
 COPY . /app
 WORKDIR /app
